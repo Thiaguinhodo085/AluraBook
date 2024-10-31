@@ -1,0 +1,44 @@
+.contato {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contato-caixa {
+    margin: 20px 0;
+    width: 300px;
+    height: 200px;
+    display: block;
+    padding: 15px 10px;
+    background-color: var(--branco);
+    color: var(--azul);
+    border-radius: 20px;
+}
+
+.contato__titulo {
+    color: var(--laranja);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+.contato__texto{
+    margin-bottom: 60px;
+
+}
+.contato__email {
+    border: 1px solid var(--azul);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.contato__email::placeholder {
+    text-align: center;
+    color: var(--azul);
+    font-size: 14px;
+}
+
